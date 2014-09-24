@@ -1,7 +1,7 @@
 React = require 'react'
-makeHref = require 'react-router/modules/helpers/makeHref'
-transitionTo = require 'react-router/modules/helpers/transitionTo'
-withoutProperties = require 'react-router/modules/helpers/withoutProperties'
+makeHref = require 'react-router/modules/utils/makeHref'
+transitionTo = require 'react-router/modules/utils/Transition'
+withoutProperties = require 'react-router/modules/utils/withoutProperties'
 copyProperties = require 'react/lib/copyProperties'
 # A map of component props that are reserved for use by the
 # router and/or React. All other props are used as params that are
